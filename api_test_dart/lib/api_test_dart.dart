@@ -1,11 +1,9 @@
-void main(List<String> args) {
-  int altura = 2; // Altura em metros
-  int peso = 80; // Peso em quilogramas
-
-  double imc = imcCalc(altura, peso);
-  print("O IMC é: $imc");
-}
-
-double imcCalc(int altura, int peso) {
+double imcCalc(double altura, double peso) {
+  if (altura <= 0) {
+    throw Exception("A altura deve ser maior que zero.");
+  }
+  if (peso <= 0) {
+    throw Exception("O peso deve ser maior que zero.");
+  }
   return peso / (altura * altura);
 }
