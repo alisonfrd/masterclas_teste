@@ -17,3 +17,35 @@
 ## Stubs
 
 - Configuração do Mock para simular o input e retorno do método do mock
+
+## Teste de widgets
+
+### O que testar
+
+- Estado do widget
+- Textos do Widget
+- Icones de widget
+- Responsividade
+
+### O que não testar
+
+- Navegação de tela
+- Animações
+- Posicionamento de Widget
+- Erros fatais
+
+## TDD
+
+Desenvolvimento orientado a testes
+
+## Red
+
+Primeiro faz o teste quebrar
+
+## Green
+
+Depois corrige fazer o teste funcionar
+
+## Refactor
+
+Por fim passa os códigos para classes de produção
